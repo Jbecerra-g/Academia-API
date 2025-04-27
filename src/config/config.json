@@ -1,0 +1,24 @@
+
+{
+    "development": {
+      "username": "tu_usuario_dev",
+      "password": "tu_contraseña_dev",
+      "database": "nombre_de_la_base_de_datos_dev",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "tu_usuario_test",
+      "password": "tu_contraseña_test",
+      "database": "nombre_de_la_base_de_datos_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "process.env.DB_USERNAME",
+      "password": "process.env.DB_PASSWORD",
+      "database": "process.env.DB_NAME",
+      "host": "process.env.DB_HOST",
+      "dialect": "mysql"
+    }
+  }
