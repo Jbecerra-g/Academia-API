@@ -1,9 +1,9 @@
 
 {
     "development": {
-      "username": "tu_usuario_dev",
-      "password": "tu_contraseña_dev",
-      "database": "nombre_de_la_base_de_datos_dev",
+      "username": "root",
+      "password": "",
+      "database": "academia_db",
       "host": "127.0.0.1",
       "dialect": "mysql"
     },

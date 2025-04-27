@@ -1,10 +1,10 @@
 
 const express = require('express');
-const { sequelize } = require('./models'); // Importa la instancia de Sequelize
+const { sequelize } = require('./src/models'); // Importa la instancia de Sequelize
 
-const cursoRoutes = require('./routes/cursoRoutes');
-const estudianteRoutes = require('./routes/estudianteRoutes');
-const matriculaRoutes = require('./routes/matriculaRoutes');
+const cursoRoutes = require('./src/routes/cursoRoutes');
+const estudianteRoutes = require('./src/routes/estudianteRoutes');
+const matriculaRoutes = require('./src/routes/matriculaRoutes');
 
 const app = express();
 const port = 3000;
